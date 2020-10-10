@@ -39,15 +39,15 @@ FORMAT="mp3"
 
 # User-selected audio format.
 if [[ $# -ge 2 ]]; then
-    format=$2
-    echo "format: $format"
+    FORMAT=$2
+    echo "format: $FORMAT"
 fi
 
 # User-selected audio quality.
 if [[ $# == 3 ]]; then
-    quality="$quality $3"
+    QUALIFTY="$QUALIFTY $3"
 else
-    quality="$quality 0"
+    QUALIFTY="$QUALIFTY 0"
 fi
 
 
